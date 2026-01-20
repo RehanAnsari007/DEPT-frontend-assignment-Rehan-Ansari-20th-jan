@@ -17,7 +17,6 @@ Remove the HTML elements, such as the navigation bar, company logo, and all text
 
    ```
 
-
-![A screenshot of the AI]("./assets/image.png")
+![AI usage output](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
 
