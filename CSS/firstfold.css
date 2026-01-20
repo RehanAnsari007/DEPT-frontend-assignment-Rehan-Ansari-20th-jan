@@ -1,0 +1,158 @@
+.goliofirstFold{
+    height: 1080px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('/Dept-Project/Assets/firstFoldBackground.svg');
+}
+
+.header{
+    display: flex;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerLogo{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.headerLogo img{
+    width: 48px;
+    height: 48px;
+}
+
+.headerLogo p{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+    font-family: 'Lexend';
+    letter-spacing: -1.5%;
+}
+
+.headerOption{
+    gap: 24px;
+    display: flex;
+}
+
+.headerOption li{
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    position: relative;
+    letter-spacing: 0px;
+    font-family: 'Lexend';
+    vertical-align: bottom;
+}
+
+.headerOption li > a{
+    color: inherit;
+}
+
+.headerOption li:hover:before{
+    top: 52px;
+    left: 0px;
+    right: 0px;
+    content: '';
+    height: 2px;
+    width: inherit;
+    border-radius: 5px;
+    background: #fff;
+    position: absolute;
+    transition: all 0.5 ease;
+}
+
+.headersocialmedialogo {
+    gap: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.headersocialmedialogo li{
+    width: 44px;
+    height: 44px;
+    padding: 12px;
+    text-align: center;
+}
+
+.headersocialmedialogo li.linked{
+    background: #fff;
+    border-radius: 5px;
+}
+
+.goliodetails{
+    width: 57.576%;
+    margin-top: 262px;
+}
+
+.goliotitle h2{
+    color: #fff;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: -2px;
+    font-family: 'Inter';
+}
+
+.goliodescription{
+    width: 85.264%;
+    margin-top: 44px;
+    position: relative;
+}
+
+.goliodescription::before{
+    left: 0px;
+    width: 2px;
+    content: '';
+    height: 84px;
+    background: #fff;
+    position: absolute;
+}
+
+.goliodescription p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    padding-left: 21px;
+    letter-spacing: 0px;
+    font-family: 'Inter';
+}
+
+.goliobutton{
+    gap: 12px;
+    display: flex;
+    margin-top: 44px;
+    align-items: center;
+}
+
+.goliobutton button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0 12px;
+    font-size: 16px;
+    min-width: 191px;
+    font-weight: 700;
+    line-height: 48px;
+    border-radius: 7px;
+    font-family: 'Inter';
+    letter-spacing: 0px;
+}
+
+.goliobutton button#btn1{
+    color: #0B63E5;
+}
+
+.goliobutton button#btn1 img{
+    vertical-align: sub;
+}
+
+.goliobutton button#btn2{
+    color: #fff;
+    background: #0B63E5;
+}
