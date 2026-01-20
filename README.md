@@ -30,7 +30,8 @@ Remove the HTML elements, such as the navigation bar, company logo, and all text
 
 ![AI usage output](https://github.com/RehanAnsari007/DEPT-frontend-assignment-Rehan-Ansari-20th-jan/blob/main/Assets/image.png)
 
-
+## Output:
+![AI usage output](https://github.com/RehanAnsari007/DEPT-frontend-assignment-Rehan-Ansari-20th-jan/blob/main/Assets/firstFoldBackground.svg)
 
 ## Getting Started
 
